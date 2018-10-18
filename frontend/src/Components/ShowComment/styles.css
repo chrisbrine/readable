@@ -1,0 +1,42 @@
+.comment {
+	display: flex;  
+	-ms-align-items: center;
+	align-items: center;
+	position: relative;
+	margin: 0 100px 10px 100px;
+	padding: 5px;
+	justify-content: center;
+	height: 150px;
+	transition: all 1s ease;
+}
+
+.comment-author {
+	font-size: 12px;  
+	text-align: start;
+	margin-right: 6px;
+}
+
+.button-action-comments {
+	display: flex;
+	flex-direction: row;
+	margin-left: 70px;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-action-comments button {
+	width: 5em;
+	height: 3em;
+}
+
+.button-action-comments .button-edit {
+	color: white;
+	background-color: darkblue;
+	border: 1px solid lightblue;
+}
+
+.button-action-comments .button-delete {
+	color: white;
+	background-color: darkred;
+	border: 1px solid pink;
+}

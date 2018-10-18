@@ -1,0 +1,34 @@
+.AppHeader {
+	display: flex;
+	padding: 12px 24px;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	border-bottom: 1px solid black;
+	box-shadow: 1px 0px 4px black;
+}
+
+.AppHeader .filters {
+	display: flex;
+	justify-content: space-around;
+	background: #ff;
+	text-align: center;
+}
+
+.AppHeader .filters div {
+	padding: 0 10px;
+}
+
+.AppHeader .filters div button {
+	height: 3em;
+}
+
+.AppHeader .filters .category-changer button {
+	background-color: lightgreen;
+	border: 1px solid darkgreen;
+}
+
+.AppHeader .filters .sort-changer button {
+	background-color: lightblue;
+	border: 1px solid darkblue;
+}

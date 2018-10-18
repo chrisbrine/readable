@@ -1,0 +1,31 @@
+.ShowPostDetail .button-action-posts {
+	display: flex;
+	width: 80%;
+	flex-direction: row;
+	margin-left: 70px;
+	align-items: center;
+	justify-content: center;
+}
+
+.ShowPostDetail .button-action-posts button {
+	height: 4em;
+	width: 15em;
+}
+
+.ShowPostDetail .button-action-posts .button-edit {
+	color: white;
+	background-color: darkblue;
+	border: 1px solid lightblue;
+}
+
+.ShowPostDetail .button-action-posts .button-add {
+	color: white;
+	background-color: darkgreen;
+	border: 1px solid lightgreen;
+}
+
+.ShowPostDetail .button-action-posts .button-delete {
+	color: white;
+	background-color: darkred;
+	border: 1px solid pink;
+}

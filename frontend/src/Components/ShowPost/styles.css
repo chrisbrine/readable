@@ -1,0 +1,55 @@
+.post {
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	position: relative;
+	margin: 16px 70px 16px 70px;
+	padding: 5px;
+	justify-content: center;
+	background: #FAFAFA;
+}
+
+.post a {
+	color: blue;
+}
+
+.post-description {
+	flex: 1 0 auto;
+	padding: 0 10px;
+	text-align: left;
+}
+
+.post-likes-comments {
+	font-size: 14px;
+	margin-top: 12px;  
+	color: #2f2f2f
+}
+
+.post-likes {
+	display: flex;
+	margin-top: 12px;    
+	align-items: center;  
+}
+
+.post-title {
+	margin-top: 0;
+}
+
+.post-body p {
+	margin-bottom: 0;
+}
+.post-votes {
+	text-align: center;
+	padding: 10px;
+}
+.post-detail {
+	position: relative;
+}
+.post-author {
+	font-size: 14px;  
+	text-align: start;
+	margin-right: 6px;
+}
+
+
+
